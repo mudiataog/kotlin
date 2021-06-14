@@ -1,0 +1,61 @@
+Git and Git Bash
+
+Git Bash commands
+ls to list folders
+cd (name of folder) to go to a folder
+cd .. to navigate backward
+mkdir (name of folder) to create a folder
+touch (name of file) to create a file in a folder
+rm (name of file) to delete a file 
+rm -rf (name of folder) to delete a folder
+clear to clear screen
+
+help to view more commands
+
+
+pwd present work directory
+
+
+
+GIT commands
+
+git init
+
+touch first.kt
+
+git add . to add all the files in the directory and make it track
+
+git status to know if the files are been track
+
+git commit -a -m "This is my first commit" to commit all files that are been added
+
+(first time using a pc)
+git config --global user.email "your_email"
+git config --global user.name "gitHub_username"
+
+then commit again
+
+
+
+GIT PUSH
+
+git remote add (name of the repositories) link copy from github.com
+
+git push --set-upstream (name of the repositories e.g new_project) master
+
+first window will pop up close it, another one will pop up close it also 
+and it will ask you for githt username, enter username press enter a popup will come up, 
+close it and enter your password 
+
+
+
+
+for loop
+var names : Array<String> = arrayof("James", "John", "Andrew")
+
+for(name in names) {
+	println(name)
+}
+
+
+next class while look and object oriented programming
